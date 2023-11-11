@@ -1,0 +1,107 @@
+body {
+  font-family: popins;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.section-header p {
+  font-size: 18px;
+}
+.single-service {
+  border: 1px solid #bbb8b8;
+  text-align: center;
+  background: #fff;
+}
+.service-bg {
+  height: 200px;
+  position: relative;
+}
+.service-bg-1 {
+  background: url("porfolio/img/biru.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.service-bg-2 {
+  background: url("img/avnza.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.service-bg-3 {
+  background: url("img/avnza.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.service-bg h2 {
+  color: #fff;
+  background: rgb(75, 74, 74);
+  border: 1px solid rgb(75, 74, 74);
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+  padding: 15px;
+  position: absolute;
+  left: 8%;
+  width: 84%;
+  margin: 0;
+  bottom: -25px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+}
+.single-service:hover .service-bg h2 {
+  background: #fff;
+  transition: 0.9s;
+  color: tomato;
+}
+.service-text {
+  padding: 50px 30px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.service-text p:last-child {
+  margin: 0;
+  line-height: 1.8;
+}
+.btn-area {
+  display: inline-block;
+  color: #333;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: dimgrey;
+  padding-top: 30px;
+}
+
+footer p {
+  color: #aaa;
+}
+
+footer p i {
+  color: rgb(230, 97, 212);
+}
+
+.portfolio .row img {
+  width: 330px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-service {
+    margin-top: 30px;
+  }
+  .service-bg h2 {
+    font-size: 13px;
+  }
+}
